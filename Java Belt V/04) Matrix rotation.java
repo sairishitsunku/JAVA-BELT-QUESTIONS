@@ -1,3 +1,4 @@
+//Given a square matrix of size n x n, write a program to rotate the matrix by 90 degrees clockwise.
 import java.util.Scanner;
 
 class Solution {
