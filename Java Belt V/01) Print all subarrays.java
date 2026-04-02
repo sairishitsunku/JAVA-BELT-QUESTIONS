@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        int n = scanner.nextInt();
+        int n = sc.nextInt();
 
         int[] array = new int[n];
         for (int i = 0; i < n; i++) {
-            array[i] = scanner.nextInt();
+            array[i] = sc.nextInt();
         }
 
         for (int start = 0; start < n; start++) {
